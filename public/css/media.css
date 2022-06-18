@@ -1,0 +1,116 @@
+@media (max-width: 460px) {
+  header .logo {
+    display: none;
+  }
+
+  section .container {
+    justify-content: center;
+  }
+
+  table {
+    font-size: 12px;
+  }
+}
+
+@media (max-width:500px) {
+  .userInfo h2 {
+    font-size: 20px;
+  }
+
+}
+
+@media (max-width:530px) {
+  header {
+    padding: 20px 10px;
+  }
+
+  .GUI .info {
+    display: none;
+  }
+
+  .GUI .card-group {
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+  }
+
+  .patientsGUI .card {
+    width: 180px;
+    height: 260px;
+  }
+
+  .form ul li a {
+    padding: 10px 20px;
+  }
+
+  .form {
+    padding: 20px 5px;
+  }
+
+  .patientsGUI .back {
+    top: 2%;
+  }
+}
+
+@media (max-width:570px) {
+  .patientsGUI .from {
+    width: 25%;
+  }
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 30px;
+    margin: 0;
+  }
+
+  .logo {
+    width: 80px;
+    height: 50px;
+  }
+
+}
+
+@media (max-width: 770px) {
+
+  .GUI .btns {
+    flex-direction: row;
+    gap: 20px;
+  }
+  header .title {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+
+  
+
+}
+
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (max-width:1300px) {
+
+  .normalList {
+    display: none;
+  }
+
+  .menu .icons {
+    display: flex;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}

@@ -1,0 +1,33 @@
+<html lang="en">
+
+<%- include('./partials/head.ejs')%>
+
+  <body >
+    <div class="back">
+      <a href="/main"><i class="fa-solid fa-angle-left" style="color: white;"></i></a>
+    </div>
+    <form class='login_form' method="POST" action="/Account/login">
+      <div class="container">
+        <div class="logo" style="width: 150px;height: 100px;">
+          <img src="/images/pngwing.com.png" alt="logo">
+        </div>
+        <div class="message">
+          <h1 style="font-size:15px;color:<%= color %>">
+            <%= message %>
+          </h1>
+        </div>
+        <input type="text" class="username" placeholder="Email" name="email"/>
+        <input type="password" class="pass" placeholder="Password" name="password"/>
+        <div class="rememberMe">
+          <input type="checkbox" value="lsRememberMe">
+          <label >Remember me</label>
+        </div>
+        <button type="submit" class="login">Login</button>
+        <a href="forgetpassword" class="forgotPassword">Forgot password ?</a>
+        <label>Don't have an account ? <a href="/account/signup" class="signup">Sign up</a></label>
+      </div>
+    </form>
+    <script src="/js/login.js"></script>
+  </body>
+
+</html>

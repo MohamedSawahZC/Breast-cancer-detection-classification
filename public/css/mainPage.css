@@ -1,0 +1,44 @@
+.main {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 200px;
+    height: 160px;
+}
+
+
+.links {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+
+a {
+    font-size: 20px;
+    background-color: var(--button2);
+    transition: 0.3s ease;
+    padding: 10px 40px;
+    border-radius: 1000px;
+}
+
+a:hover {
+    padding: 15px 45px;
+    background-color: #db3225;
+}
